@@ -1,0 +1,60 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1.3;
+    backdrop-filter: blur(4px);  
+    background-color:transparent;
+}
+
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 0px;
+    /* width: 600px; */
+    max-width: 800px;
+    padding: 60px;
+    border-radius: 10px;
+    background-color: #161512;
+    border-image: linear-gradient(to right, #DF8908 50%, #B415FF 100%) 1;
+    border-radius:1em; /* this doesn't work */
+    border-width: 4px;
+    border-style: solid;
+    
+}
+
+.close-modal{
+    font-size: 26px;
+    align-self: self-end;
+    background-color: #161513;
+    color: white;
+    border: none;
+}
+
+.modal-content{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* width: 50%; */
+    margin-top: 40px;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.modal-title{
+    font-size: 38px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
