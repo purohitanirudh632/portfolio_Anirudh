@@ -44,7 +44,7 @@ const Services_Data = [
         s_detail:"specifically focusing on the standard K-Means algorithm, K-Means with Improved Efficiency Criterion (IEC), and K-Means utilizing the MapReduce function.        The system uses the 20 Newsgroups dataset, a populartext data set for machine learning, to test and compare the clustering performance and computational efficiency of the three implementations",
         s_time:"March 2024 – June 2024",
         s_stack:"[Python ,MapReduce ,Machine Learning,]",
-        source:"#"
+        source:"https://github.com/purohitanirudh632/Major-Project"
     },
 
     {
