@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import { X } from 'lucide-react';
 import Services_Data from '../../assets/services_data'
+import { FaGithub } from "react-icons/fa";
 import './Modal.css'
 function Modal({service,onClose }) {
     const modalRef = useRef();
@@ -23,6 +24,7 @@ function Modal({service,onClose }) {
                 <h3>{service.s_stack}</h3>
                 
                 <h3>{service.s_live}</h3>
+               <a href={service.source} target="_blank" rel="noopener noreferrer"> <FaGithub style={{ fontSize: '3em'}}/></a>
            </div>    
       </div>
     </div>
