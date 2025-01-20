@@ -10,6 +10,7 @@ const Services = () => {
   const [selectedService, setSelectedService] = useState(null);
 
   const toggleModal= (service)=>{
+    console.log("touch2")
     setSelectedService(service);
     setModal(!modal);
   }
