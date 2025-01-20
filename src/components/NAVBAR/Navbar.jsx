@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import './navbar.css'
+import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import Ani_icon from '../../assets/Ani_icon.svg'
 import underline from '../../assets/nav_underline.svg'
