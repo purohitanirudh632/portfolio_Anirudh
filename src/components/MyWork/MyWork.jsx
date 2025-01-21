@@ -3,7 +3,7 @@ import './MyWork.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mywork_data from '../../assets/mywork_data'
 import Modal from '../Modal/Modal'
-import WorkModal from '../WorkModal/WorkModal'
+import WorkModal from '../Wmodal/WorkModal'
 
 const MyWork = () => {
 
