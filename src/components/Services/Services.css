@@ -79,6 +79,7 @@
   }  
 
   @media(max-width:768px){
+    
     .services{
       align-items: start;
       gap: 70px;

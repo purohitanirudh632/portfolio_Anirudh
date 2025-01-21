@@ -12,7 +12,7 @@ const Hero = () => {
         a growing environment so as to challenge myself and excel with hard work perseverance and dedication.</p>
         <div className="hero-action">
           {/* <div className="hero-connect">Connect With me</div> */}
-          <a className='download-link' href='../assets/Anirudh_latest.pdf' download="Anirudh_Resume.pdf"> <div className="hero-resume">My Resume</div> </a>
+          <a className='download-link' href='/Anirudh.pdf' target='_blank' download="Anirudh_Resume.pdf"> <div className="hero-resume">My Resume</div> </a>
          </div>     
     </div>
   )
