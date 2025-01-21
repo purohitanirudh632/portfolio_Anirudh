@@ -3,9 +3,9 @@ import { X } from 'lucide-react';
 import mywork_data from '../../assets/mywork_data'
 import Services_Data from '../../assets/services_data'
 import { FaGithub } from "react-icons/fa";
-import './Workmodal.css'
+import './WorkModal.css'
 
-function Workmodal({service,onClose }) {
+function WorkModal({service,onClose }) {
     const modalRef = useRef();
     const closeModal = (e)=>{
         if(modalRef.current === e.target){
@@ -28,4 +28,4 @@ function Workmodal({service,onClose }) {
   )
 }
 
-export default Workmodal
+export default WorkModal
